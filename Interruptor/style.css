@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: auto;
+    height: 30px;
+    margin-left: 40%;
+}
+
+.btn2{
+    width: auto;
+    height: 30px;
+    margin-left: 5%;
+}
+
+#light{
+    width: 323px;
+    height: 405px;
+    background-color: white;
+    margin-left: 40%;
+}
+
+.on{
+    background-image: url(./img/light\ on.png);
+    background-repeat: no-repeat;
+    background-position-y: -5px;
+}
+
+.off{
+    background-image: url(./img/light\ off.png);
+    background-repeat: no-repeat;
+    background-position-x: 34px;
+}

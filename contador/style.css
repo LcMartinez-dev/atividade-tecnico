@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --blue: rgb(10, 51, 163);
+    --white: white;
+    --black: black;
+    --gray: rgb(40, 40, 40);
+
+}
+    
+.contador{
+    width: 25%;
+    height: 200px;
+    background-color: var(--blue);
+    justify-self: center;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
+    box-shadow: 7px 7px 7px var(--black);
+}
+.value{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: var(--white);
+    grid-column: 1/5;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 25px
+}
+
+.buttonMinus{
+    width: 80%;
+    height: 50px;
+    grid-column: 1/2;
+    margin-left: 100%;
+    font-size: 18px;
+}
+
+.buttonPlus{
+    width: 80%;
+    height: 50px;
+    grid-column: 3/4;
+    margin-left: 20%;
+    font-size: 18px;
+}
